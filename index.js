@@ -48,7 +48,7 @@ i18n.configure({
 /**
  * Client Events
  */
-client.on("ready", () => {
+client.on("ready", (Servers: ${client.guilds.size} | Users: ${client.users.size},) => {
   console.log(`${client.user.username} ready!`);
   client.user.setActivity(`${PREFIX}help and ${PREFIX}play`, { type: "LISTENING" });
 });
